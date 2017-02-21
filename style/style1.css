@@ -1,0 +1,99 @@
+body{
+	background: url('back.png');
+	background-color: white;
+	background-size: 102% 700px;
+}
+.navbar{
+	margin-top:-100px;
+	font-size: 20px;
+	color: #fff;
+	line-height: 20px;
+	margin-bottom: -20px;
+	background-color: transparent;
+	border: none;
+	height: 20px;
+}
+
+.nav ul{
+	color: white;
+}
+
+
+.navbar-collapse{
+	margin-bottom: 70px;
+}
+
+.btn-default{
+	background-color: transparent;
+	color:;
+	margin-right: 20px;
+	width: 120px;
+	height: 50px;
+}
+
+.btn-success{
+	width: 120px;
+	height: 50px;
+}
+
+.btn-primary{
+	text-align: center;
+	width: 358px;
+	height: 50px;
+}
+
+
+.row{
+	font-size: 50px;
+	font-family:  arial;
+	margin-top: 150px;
+	text-align: center;
+	color: white;
+}
+
+.rowbek{
+	font-size: 23px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 35px;
+	color: white;
+}
+
+.hr{
+	text-align: center;
+	width: 500px;
+	color: white;
+
+}
+
+img{
+	margin-top: -100px;
+	width: 125px;
+	height: auto;
+}
+
+.logo{
+	margin-top: -100px;
+	width: 100px;
+	height: auto;	
+}
+
+
+
+.modal-content{
+	background:url('bglogin.jpg');
+	background-size: 100% 100%; 
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1000);
+}
+
+.modal-body{
+ margin-left: 75px;
+}
+
+.modal-footer{
+	text-align: center;
+}
+
+
+
+}

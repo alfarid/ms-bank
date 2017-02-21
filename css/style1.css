@@ -1,0 +1,88 @@
+body{
+	background: url('back.png');
+	background-color: white;
+	background-size: 102% 700px;
+}
+.navbar{
+	margin-top:-50px;
+	font-size: 20px;
+	color: #fff;
+	line-height: 20px;
+	margin-bottom: -20px;
+	background-color: transparent;
+	border: none;
+	height: 20px;
+}
+
+.nav ul{
+	color: white;
+}
+
+
+.navbar-collapse{
+	margin-bottom: 30px;
+}
+
+.btn-default{
+	background-color: transparent;
+	color:;
+	margin-right: 20px;
+	width: 120px;
+	height: 50px;
+}
+
+.btn-success{
+	width: 120px;
+	height: 50px;
+}
+
+.btn-primary{
+	text-align: center;
+	width: 358px;
+	height: 50px;
+}
+
+
+.row{
+	font-size: 50px;
+	font-family:  arial;
+	margin-top: 100px;
+	text-align: center;
+	color: white;
+}
+
+.rowbek{
+	font-size: 23px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 35px;
+	color: white;
+}
+
+.hr{
+	text-align: center;
+	width: 450px;
+	color: white;
+
+}
+
+img{
+	margin-top: -100px;
+	width: 120px;
+	height: auto;
+}
+
+
+
+.modal-content{
+	background-color: #E8FFFF;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 500);
+}
+
+.modal-body{
+ margin-left: 75px;
+}
+
+.modal-footer{
+	text-align: center;
+}

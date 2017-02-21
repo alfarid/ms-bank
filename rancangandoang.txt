@@ -1,0 +1,15 @@
+MS Bank App
+
+- Index.php = Home
+-About.php = About
+- login= tampilan melayang
+			-koneksi.php
+        -pros-login.php
+	- Home1.php = untuk user
+		#
+		#
+		# 
+	-home2.php= untuk admin
+		#
+		#
+		#

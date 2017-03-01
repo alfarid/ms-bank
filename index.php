@@ -73,7 +73,7 @@
                 <div class="col-xs-6" id="nav-col">
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li><a href="about.php" button type="button" class="btn btn-default"><font color="white">About</font></a></button></li>
+                                        <li><a href="#about" button type="button" class="btn btn-default"><font color="white">About</font></a></button></li>
                                         <li><button class="btn btn-success" data-toggle="modal" data-target="#mymodal"> Masuk</li>
                                     </ul>
                     </div><!-- /.navbar-collapse -->
@@ -85,6 +85,7 @@
       </div><!-- /.container-->
     </nav>
 
+  <br><br><br><br><br><br>  
   <div class="row">
   <div class="container">
     <div class="col-xs-offset-1 col-xs-10">
@@ -101,20 +102,88 @@
     </div>
   </div>
 </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div id="about">
+            <br><br>
 
-<hr class="hr">
+            <h1 class="brand-name">About</h1>
+            <hr class="tagline-divider">
+            <h2 class="h2">
+            <small>MS Bank Application</small>
+            </h2>
 
-<div class="row">
-  <div class="container">
-    <div class="col-xs-offset-2 col-xs-8">
-    <img src="img/logo.png">
-    <img src="img/wandek.png">
-    <img class="logo" src="img/msapp.png">
-    <img class="logo" src="img/sbc.png">
-    </div>
-  </div>
-</div>
+            <br><br><br><br><br>
+            <div class="container">
+              <div class="media">
+                <div class="media-left">
+                  <img class="media-object1" src="img/msbank.png" alt="msapp">
+                </div>
+                    <div class="media-body">
+                        <div class="col-xs-offset-2 col-xs-8">
+                            <h1 class="media-heading">MS Bank App</h1>
+                            MS Bank App adalah aplikasi yang dibuat untuk memudahkan siswa/siswi SMKN 1 Depok 
+                            dalam melakukan transaksi pembayaran, sehingga tidak perlu lagi untuk mengantri panjang di depan ruang MS Bank.
+                        </div>
+                    </div>
 
+                  <br><br><br><br>
+                      <div class="media-body">
+                        <div class="col-xs-offset-2 col-xs-8">
+                          <h1 class="media-heading">Lihat data</h1>
+                          Di dalam aplikasi ini pengguna dapat meihat data pembayaran selama di SMKN 1 Depok. sehingga kalian tidak perlu
+                          khawatir jika buku pembayaran hilang ataupun rusak.
+                        </div>
+                      </div>
+                <div class="media-right"> 
+                  <img class="media-object2" src="img/lihatdata.png" alt="msapp">
+                </div>
+
+
+                <br><br><br><br>
+                <div class="media-left">
+                  <img class="media-object1" src="img/bayar.png" alt="msapp">
+                </div>
+                    <div class="media-body">
+                        <div class="col-xs-offset-2 col-xs-8">
+                            <h1 class="media-heading">Membayar</h1>
+                            Membayar atau melakukan transaksi pembayaran secara online merupakan fungsi utama dala aplikasi MS Bank App. disini
+                            pengguna dapat membayar yang berhubungan dengan sekolah, seperti pembayaran SPKP, seragam, LDKS, Kunjungan Industri,
+                            serta lebih banyak lagi.
+
+                        </div>
+                    </div>
+            </div>
+
+
+              </div>
+            </div>
+          </div>
+          <br><br><br><br>
+
+           <div class="powered">
+
+                <div class="row">
+                  <div class="container">
+                    <div class="col-xs-offset-1 col-xs-10">
+                        <h1 class="powered-by"><strong>Powered</strong><small>by</small></h1>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="container">
+                    <div class="col-xs-offset-2 col-xs-8">
+                        <img src="img/logo.png">
+                        <img src="img/wandek.png">
+                        <img class="logo" src="img/msapp.png">
+                        <img class="logo" src="img/sbc.png">
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+              
 
 </body>
 </html>

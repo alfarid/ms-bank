@@ -15,7 +15,9 @@
 
 </head>
 <body>
-    
+	<!-- navbar -->
+
+	<!-- body -->
 
 </body>
 </html>

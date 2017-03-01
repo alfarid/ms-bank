@@ -1,0 +1,29 @@
+body{
+	background: url('back.png');
+	background-repeat: repeat-x;
+	background-color: white; 
+	background-size: 102% 610px; 
+}
+
+/*judul*/
+.brand-name{
+	margin-top: 200px;
+	color: white;
+	text-align: center;
+}
+
+.h3{
+	color: white;
+	text-align: center;
+}
+
+
+/*container*/
+.container{
+	margin-top: 400px;
+}
+
+.lainnya{
+	background-color: #cccccc;  
+	border-radius: 3px;
+}

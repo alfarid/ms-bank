@@ -1,7 +1,8 @@
-body{
+body{ 
 	background: url('back.png');
-	background-color: white;
-	background-size: 102% 700px;
+	background-repeat: repeat-x;
+	background-color: white;  
+	background-size: 102% 620px; 
 }
 .navbar{
 	margin-top:-100px;
@@ -62,18 +63,17 @@ body{
 .hr{
 	text-align: center;
 	width: 500px;
-	color: white;
+	color: black;
 
 }
 
 img{
-	margin-top: -100px;
+
 	width: 125px;
 	height: auto;
 }
 
 .logo{
-	margin-top: -100px;
 	width: 100px;
 	height: auto;	
 }
@@ -94,6 +94,69 @@ img{
 	text-align: center;
 }
 
+.media-object1{
+	height: 200px;
+	width: auto;
+	margin-top:30px;
+	margin-left: ;
+}
 
+.media-object2{
+	height: 200px;
+	width: auto;
+	margin-top:30px;
+	margin-right: ;
+}
 
+.media-heading{
+	color:black;
+	font-family: "Roboto";
+}
+
+.media-body{
+	color: #999999;
+	font-family: "Roboto";
+	font-size: 18px;
+}
+
+/*text about*/
+.brand-name{
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, arial, sans-serif ;
+	text-transform: uppercase;
+	font-weight: 700;
+	color:black;
+	font-size: 50px;
+	text-align: center;
+}
+
+.tagline-divider{
+	margin-top: -5px;
+	width: 100px;
+	height: 10px;
+	text-align: center;
+	line-height: 10px;
+}
+
+.h2{
+	margin-top: -30px;
+	text-align: center;
+	color:#999999;
+	font-size: 30px;
+	font-family: "Montserrat";
+}
+
+/*powered by*/
+.powered{
+	background-color: #ECECEC;
+	margin-top: -30px;
+}
+
+.powered-by{
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, arial, sans-serif ;
+	text-transform: uppercase;
+	font-weight: 700;
+	color:black;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: -60px;
 }

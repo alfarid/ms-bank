@@ -1,8 +1,7 @@
-body{
-	background: url('back.png');
-	background-repeat: repeat-x;
-	background-color: white; 
-	background-size: 102% 610px; 
+/*pop up*/
+.modal-content{
+	 background-color:white;
+	 height: 500px;
 }
 
 /*judul*/

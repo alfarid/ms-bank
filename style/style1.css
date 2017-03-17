@@ -1,64 +1,37 @@
-body{ 
-	background: url('back.png');
-	background-repeat: repeat-x;
-	background-color: white;  
-	background-size: 102% 620px; 
+body,
+html{ 
+	height: 100%;
+	width: 100%;
 }
+
+.intro{
+	margin-top: -100px;
+	padding-top: 150px; 
+    padding-bottom: 430px;
+	text-align: center;
+    color: white;
+    background: url(../img/gambar1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 .navbar{
-	margin-top:-100px;
 	font-size: 20px;
-	color: #fff;
-	line-height: 20px;
-	margin-bottom: -20px;
-	background-color: transparent;
 	border: none;
-	height: 20px;
+	background: transparent;
 }
 
-.nav ul{
-	color: white;
+.navbar .navbar-brand{
+	color: #ffffff;
+  	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  	font-size: 27px;
+	margin-top:10px ;
 }
 
-
-.navbar-collapse{
-	margin-bottom: 70px;
-}
-
-.btn-default{
-	background-color: transparent;
-	color:;
-	margin-right: 20px;
-	width: 120px;
+.btnnav{
+	width: 100px;
 	height: 50px;
 }
 
-.btn-success{
-	width: 120px;
-	height: 50px;
-}
-
-.btn-primary{
-	text-align: center;
-	width: 358px;
-	height: 50px;
-}
-
-
-.row{
-	font-size: 50px;
-	font-family:  arial;
-	margin-top: 150px;
-	text-align: center;
-	color: white;
-}
-
-.rowbek{
-	font-size: 23px;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 35px;
-	color: white;
-}
 
 .hr{
 	text-align: center;
@@ -67,45 +40,40 @@ body{
 
 }
 
-img{
-
-	width: 125px;
-	height: auto;
+.text-intro{
+	font-family: 'Roboto Slab', serif;
+	font-size: 45px;
 }
 
-.logo{
-	width: 100px;
-	height: auto;	
+.isi-intro{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
 }
-
-
 
 .modal-content{
-	background:url('bglogin.jpg');
-	background-size: 100% 100%; 
-	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1000);
+	 background-color:#d5d6d5;
+	 height: 280px;
+}
+ .tinggi{
+ 	height: 45px;
+ 	margin-top:-10px; 
+ }
+
+ .btnlogin{
+ 	width: auto;
+ 	height: 40px;
 }
 
-.modal-body{
- margin-left: 75px;
-}
-
-.modal-footer{
-	text-align: center;
-}
-
-.media-object1{
+.kiri{
 	height: 200px;
 	width: auto;
 	margin-top:30px;
-	margin-left: ;
 }
 
-.media-object2{
+.kanan{
 	height: 200px;
 	width: auto;
 	margin-top:30px;
-	margin-right: ;
 }
 
 .media-heading{
@@ -120,21 +88,14 @@ img{
 }
 
 /*text about*/
-.brand-name{
+.about{
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, arial, sans-serif ;
 	text-transform: uppercase;
 	font-weight: 700;
 	color:black;
 	font-size: 50px;
 	text-align: center;
-}
-
-.tagline-divider{
-	margin-top: -5px;
-	width: 100px;
-	height: 10px;
-	text-align: center;
-	line-height: 10px;
+	margin-top: 30px;
 }
 
 .h2{
@@ -147,8 +108,7 @@ img{
 
 /*powered by*/
 .powered{
-	background-color: #ECECEC;
-	margin-top: -30px;
+	background-color: #ECECEC; 
 }
 
 .powered-by{
@@ -159,4 +119,32 @@ img{
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: -60px;
+}
+
+footer {
+
+  color:  white;
+  background-color: #25373D;
+}
+
+footer .copyright {
+  margin-top: 50px;
+}
+
+.tulis {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.bawah{
+  padding-top: 10px;
+  background-color: #282830;
+  text-align: center;
+  width: 100%;
+}
+
+footer img .log {
+  height: 100px;
+  width: 100px;
 }

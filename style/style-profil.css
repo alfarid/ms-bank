@@ -1,6 +1,13 @@
+/*nav*/
+.costum{
+	background-color: black;
+	color: white; 
+}
+
+
 .profil{
 	background-color: #cdcdef; 
-	border-radius: 5px;
+
 }
 
 .button-style{
@@ -15,4 +22,30 @@
 
 .lihat{
 	background-color: #f3fdf1;
+}
+
+a {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer {
+  color:  white;
+  background-color: #25373D;
+  height:;
+}
+
+footer .copyright {
+  margin-top: 50px;
+}
+
+.bawah{
+  padding-top: 10px;
+  margin-top:;
+  background-color: #282830;
+  text-align: center;
+}
+
+footer img .log {
+  height: 100px;
+  width: 100px;
 }
